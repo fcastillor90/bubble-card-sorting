@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bubble Sorting</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="./4geeks.ico" />
+  </head>
+  <body>
+    <!--Botones-->
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <div class="col-auto">
+        <label for="cantidad-cartas" class="col-form-label"
+          ><strong>Cantidad de cartas</strong></label
+        >
+      </div>
+      <div class="col-auto">
+        <input
+          type="number"
+          id="cantidad-cartas"
+          class="form-control"
+          aria-describedby="passwordHelpInline"
+          max="1"
+        />
+      </div>
+      <button class="btn btn-dark btn-sm" type="button" id="baraja">
+        Barajar
+      </button>
+      <button class="btn btn-dark btn-sm" type="button" id="ordena">
+        Ordenar
+      </button>
+      <!--Botones-->
+      <div class="container row" id="carta-aleatoria"></div>
+    </div>
+  </body>
+</html>

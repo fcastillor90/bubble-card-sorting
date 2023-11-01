@@ -1,0 +1,23 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+#pinta-izq {
+    text-align: left;
+    border: white;
+    font-size: 3em;
+  }
+  
+  #pinta-der {
+    text-align: right;
+    border: white;
+    font-size: 3em;
+  }
+  
+  #numero {
+    border: white;
+    font-size: 5em;
+  }
+  
+ 
+  body{
+    background: lightgreen;
+  }
